@@ -5,7 +5,7 @@ Made for educational purposes only. The DLL was designed to be injected into Hal
 It supports:
 
 ## ESP
-- Tracks NPCs, their type, health and such through walls (this was really hard as to make...)
+- Tracks NPCs, their type, health and such through walls using OpenGL (this was really hard as to make...)
 
 ## Noclip
 - Allows flying at different speeds with no limitations
