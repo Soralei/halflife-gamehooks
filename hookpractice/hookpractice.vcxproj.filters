@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="glDraw">
+      <UniqueIdentifier>{ed6165a0-430f-4880-8bf9-7ddc56d77fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldToScreen">
+      <UniqueIdentifier>{59946ce5-ee56-45a0-82fd-b790f3a8485a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hookz">
+      <UniqueIdentifier>{a529b1a5-bdc0-4fea-bb2a-048bc8b4d27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{f7809232-e800-4dcd-86a3-810c96225a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Freefly">
+      <UniqueIdentifier>{0e98b8d7-e509-499f-83e0-02c94d42bb1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Freecam">
+      <UniqueIdentifier>{b408ba13-6def-49f3-ae17-dc1c030c1da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESP">
+      <UniqueIdentifier>{cd2cc844-f7aa-44c3-9952-4f5c5a04f625}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glDraw.h">
+      <Filter>glDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldToScreen.h">
+      <Filter>WorldToScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Hookz.h">
+      <Filter>Hookz</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="freefly.h">
+      <Filter>Freefly</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="freecam.h">
+      <Filter>Freecam</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>ESP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glDraw.cpp">
+      <Filter>glDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldToScreen.cpp">
+      <Filter>WorldToScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Hookz.cpp">
+      <Filter>Hookz</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="freefly.cpp">
+      <Filter>Freefly</Filter>
+    </ClCompile>
+    <ClCompile Include="freecam.cpp">
+      <Filter>Freecam</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>ESP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
